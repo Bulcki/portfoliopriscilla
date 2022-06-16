@@ -11,6 +11,7 @@ import { ResumeComponent } from './resume/resume.component';
 import { LabPictureComponent } from './lab-picture/lab-picture.component';
 import { CareUComponent } from './care-u/care-u.component';
 import { FooterComponent } from './footer/footer.component';
+import {MatTabsModule} from '@angular/material/tabs';
 
 @NgModule({
   declarations: [
@@ -26,8 +27,8 @@ import { FooterComponent } from './footer/footer.component';
     imports: [
         BrowserModule,
         AppRoutingModule,
-        BrowserAnimationsModule
-
+        BrowserAnimationsModule,
+        MatTabsModule
     ],
   providers: [],
   bootstrap: [AppComponent]
