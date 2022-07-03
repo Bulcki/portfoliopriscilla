@@ -1,0 +1,17 @@
+.flex{
+  height: calc(100vh - 48px);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+}
+
+.img-back{
+  background-image: url("/assets/public/ciel.jpeg");
+  background-size: cover;
+}
+
+img{
+  width: 384px;
+  height: 384px;
+}

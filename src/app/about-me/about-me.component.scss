@@ -1,5 +1,19 @@
-.w-h4{
-  width: 47%;
-  color: #323649;
-  padding-top: 18%;
+section{
+  background-image: url("/assets/public/dynamic-wang-H5t17_WRtmE-unsplash.jpeg");
+  background-size: 100% 100%;
 }
+
+.w-h4{
+  width: 54%;
+  color: #323649;
+  padding-top: 5%;
+}
+
+.cal-h{
+  height: calc(100vh - 48px);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+}
+

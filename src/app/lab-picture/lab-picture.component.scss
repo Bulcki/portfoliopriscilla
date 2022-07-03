@@ -1,11 +1,9 @@
 .padding-top{
-  padding-top: 18%;
+  padding-top: 10%;
 }
 
-.w-h{
-  width: 54%;
-}
-
-.color{
-  color: #725B67;
+@media screen and (max-width: 1200px) {
+  #responsive{
+    display: none;
+  }
 }

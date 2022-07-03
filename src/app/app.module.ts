@@ -5,13 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatTabsModule } from '@angular/material/tabs';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ResumeComponent } from './resume/resume.component';
 import { LabPictureComponent } from './lab-picture/lab-picture.component';
 import { CareUComponent } from './care-u/care-u.component';
 import { FooterComponent } from './footer/footer.component';
-import {MatTabsModule} from '@angular/material/tabs';
+import { DressMeSlowComponent } from './dress-me-slow/dress-me-slow.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {MatTabsModule} from '@angular/material/tabs';
     ResumeComponent,
     LabPictureComponent,
     CareUComponent,
-    FooterComponent
+    FooterComponent,
+    DressMeSlowComponent
   ],
     imports: [
         BrowserModule,

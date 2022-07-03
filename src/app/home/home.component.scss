@@ -1,7 +1,16 @@
-.bg-color{
-  background-color: #f4f4f4;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+.cal-h{
+  height: calc(100vh - 48px);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+}
+
+/* .height-section{
+  height: calc(100vh - 233px);
+}*/
+
+.img{
+  background-image: url("/assets/public/design.jpeg");
+  background-size: cover;
 }
